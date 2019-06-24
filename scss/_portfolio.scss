@@ -1,0 +1,64 @@
+
+.portfolio,
+ .brand-slider {
+    max-width: 82%;
+    margin: 0 $at;
+    padding: $sz*9 0 0;
+    text-align: center;
+    h4 {
+        display: inline-block;
+        background: $dg;
+        padding: 0 $sz*3;
+         margin: 0 0 $sz*3; 
+        font-size: $sz*1.8;
+        text-transform: uppercase;
+        color: $yl;
+    }
+    p {
+        color: $dg;
+        font-size: $sz*1.6;
+        margin: $sz*2 0 $sz*2;
+    }
+}
+
+
+.toggles button {
+    border: none;
+    color: $dg;
+    cursor: pointer;
+    font-size: $sz*1.6;
+    text-transform: uppercase;
+    margin: 0 $sz/2;
+    
+ &:after {
+    content:' / ';
+}
+
+ &:last-child{
+     :after {
+    content: ' ';}
+ 
+}
+
+}
+.posts {
+    max-width: 90%;
+    margin: $sz*2 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+     min-height: $sz*84; 
+}
+.post {
+    max-width: $sz*36;
+    max-height: $sz*27;
+    margin: $sz 0 $sz*1.2;
+     img {
+        width: $sz*36;
+        height: $sz*27;
+    }
+}
+
+.owl-carousel {
+    margin: 0 0 $sz*3;
+}

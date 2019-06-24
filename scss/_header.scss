@@ -1,0 +1,57 @@
+body {
+    font-family: 'Century Gothic', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+li{
+    list-style:none;
+    display: $fl;
+}
+a{
+    text-decoration: none;
+}
+header {
+    background-color: $gr;
+    padding: $sz*2.2  0;
+    margin: $sz*1.5;
+}
+
+  header-container {
+  width: 90%;
+    margin: 0 $at;
+    display: $fl;
+    justify-content: space-between;
+
+
+     a {
+    color: $blk;
+    font-size: $sz*1.6;
+    font-weight: $sz*70;
+    margin-right: $sz*7.1;
+    font-family: 'Code-Pro-Light'; 
+   text-transform: uppercase;
+   padding: $sz*2.7 $sz*0.6;
+   
+
+     &:hover {
+        background-color: $yl;
+    }    
+   }
+}
+
+ #menu-checkbox {
+    display: none;
+}
+
+
+ nav {
+    margin-top: $sz*2;
+}
+ul {
+    display: $fl;
+    flex-wrap: wrap;
+}
+

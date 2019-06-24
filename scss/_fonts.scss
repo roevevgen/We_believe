@@ -1,0 +1,30 @@
+@font-face{
+    font-family: 'CenturyGothic-Bold';
+
+src: url('../fonts/CenturyGothic-Bold.eot');
+
+src: url('../fonts/CenturyGothic-Bold.eot?iefix') format('eot'),
+
+url('../fonts/CenturyGothic-Bold.woff') format('woff'),
+
+url('../fonts/WebFont-Bold.ttf') format('ttf');
+
+font-weight: bold;
+
+font-style: normal;
+}
+@font-face{
+font-family: 'Code-Pro-Light';
+
+src: url('../fonts/Code-Pro-Light.eot');
+
+src: url('../fonts/Code-Pro-Light.eot?iefix') format('eot'),
+
+url('../fonts/Code-Pro-Light.woff') format('woff'),
+
+url('../fonts/Code-Pro-Light.ttf') format('ttf');
+
+font-weight: bold;
+
+font-style: normal;
+}

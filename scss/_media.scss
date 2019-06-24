@@ -1,0 +1,103 @@
+@media screen and (max-width:320px ){
+    .header-container{
+       width: 100%;
+       display: $fl;
+       justify-content: space-around; 
+    }
+    .main-menu{
+        display: none;
+        margin: 0 0 $sz;
+        li{
+            width: 100%;
+            display: $bk;
+            font-size: $sz*1.2;
+        }
+        a{
+            display: $bk;
+            padding: $sz/1.25;
+        }
+    }
+    
+    
+    .toggle-button{
+        text-align: center;
+        display: $bk;
+        cursor: pointer;
+        color: $blk;
+        &:after{
+            content: attr(data-open);
+            display: $bk;
+        }
+    }
+   
+    #menu-checkbox{
+    &:checked + nav[role="navigation"] .main-menu{
+        display: $bk;
+    }
+}
+    #menu-checkbox{
+
+    &:checked + nav[role="navigation"] .toggle-button{
+    :after{
+        content: attr(data-close);
+    }
+}
+}
+    .header-container{
+        a{
+            margin-right: -$sz*6.5;
+            
+        }
+
+    }
+    .main-menu{
+        position: relative;
+        top: $sz*3;
+        right: 0px;
+    }
+    .top-slide {
+        padding: $sz*5 0 $sz*5;
+        h2 {
+            font-size: $sz*3;
+          }
+          p {
+            font-size: $sz*1.6;
+         }
+     }
+     .specialize-container
+     {
+
+     p {
+        font-size: $sz*1.6;
+     }
+    }
+     
+     .specialize-card {
+        flex-direction: column;
+        align-items: center;
+     }
+     .top-card {
+        width: $sz*23;
+        height: $sz*18;
+     }
+     .bottom-card {
+        width: $sz*23;
+        height: $sz*6;
+     }
+     
+.portfolio {
+    padding:$sz*6 0 0;
+ }
+ .posts {
+    align-items: stretch;
+    min-height: $at;
+    img {
+        width: $sz*28;
+        height: $sz*22;
+     }
+ }
+ .toggles button {
+    margin: $sz;
+ }
+
+}
